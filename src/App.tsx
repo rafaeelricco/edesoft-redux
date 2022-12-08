@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Header from './components/Header/Header'
 import { fetchUsers } from './store/users'
 
+import Footer from './components/Footer/Footer'
 import Main from './routes'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <Router>
         <Header />
         <Main />
+        <Footer />
       </Router>
     </>
   )
